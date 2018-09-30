@@ -20,7 +20,7 @@ TodoList.propTypes = {
       id: PropTypes.number.isRequired,
       completed: PropTypes.bool.isRequired,
       text: PropTypes.string.isRequired
-    }).isRequired;
+    }).isRequired
   ).isRequired,
   toggleTodo: PropTypes.func.isRequired
 };
